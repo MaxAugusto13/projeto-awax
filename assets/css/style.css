@@ -1075,8 +1075,9 @@ footer {
 }
 
 .footer-body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     display: flex;
+    max-width: 1140px;
 }
 
 
@@ -1177,7 +1178,7 @@ footer .icon-footer-box div:hover,
 }
 
 
-@media (min-width: 450px) and (max-width: 870px) {
+@media (min-width: 450px) and (max-width: 970px) {
     .menu nav {
         position: absolute;
         z-index: 99;
